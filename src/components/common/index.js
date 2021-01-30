@@ -26,6 +26,7 @@ export const SingleTicket = ({ tickets, type, handleChange, handleSubmit }) => {
                         <div className="col-sm-6">
                             <label className="control-label">Ticket Status</label>
                             <select className="form-control" name="status" onChange={handleChange}>
+                                <option selected disabled>Select Status</option>
                                 <option value="Closed">Closed</option>
                                 <option value="Open">Open</option>
                                 <option value="Waiting Response">Waiting Response</option>
