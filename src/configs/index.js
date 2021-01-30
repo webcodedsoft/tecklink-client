@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: 'http://localhost:2022/api',
+    baseURL: 'https://tecklink-server.herokuapp.com/api',
 })
 
 export default API
